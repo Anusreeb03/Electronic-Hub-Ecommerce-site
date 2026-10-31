@@ -1,17 +1,18 @@
-Electronic-Hub|Ecommerce Store
+**Electronic-Hub|Ecommerce Store**
+
 A full-stack e-commerce web application built for an electronics shop. It features secure session-based authentication, 
 role-based access control (Admin vs. User), a dynamic product catalog with real-time search, an interactive shopping cart 
 with localStorage persistence, and media file support.
 
-Tech Stack
-Frontend: React (Vite), JavaScript (ES6+), HTML5, Responsive CSS
+**Tech Stack**
+**Frontend**: React (Vite), JavaScript (ES6+), HTML5, Responsive CSS
 
-Backend: Python, Django, Django REST Framework (DRF)
+**Backend**: Python, Django, Django REST Framework (DRF)
 
-Database: SQLite
+**Database**: SQLite
 
-Authentication & Security: Django Session Authentication with CORS (django-cors-headers) & credentials support
-Login Credentials
+**Authentication & Security**: Django Session Authentication with CORS (django-cors-headers) & credentials support
+**Login Credentials**
 You can use the following test accounts to log into the application:
 1. Admin Account (Full Access)
 Email: admin@shop.com
@@ -24,10 +25,10 @@ Email: user@shop.com
 Password: shopuser
 (since django user creation through admin panel doesnot allow users with password similar to username)
 
-Capabilities: Can view products, search, view full product details, add items to the shopping cart, 
+**Capabilities:** Can view products, search, view full product details, add items to the shopping cart, 
 and manage cart quantities. (Admin-only buttons are hidden and restricted by backend permissions).
 
-Steps to Run the Project
+**Steps to Run the Project**
 Since this project consists of a Django backend and a React frontend, you will need to run them simultaneously in two separate 
 terminal windows.
 
